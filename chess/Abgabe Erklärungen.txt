@@ -1,0 +1,28 @@
+4er Gruppe:
+Bernhard Dubbick
+Kay Gillwald (s0530081)
+Malte Bünz
+Nico Kunze
+
+Aufgabe 1)
+- Messergebnisse befinden sich in der de.htw.ds.board.chess.ChessTableBoard1 ganz oben
+
+Aufgabe 2)
+- Messergebnisse befinden sich in der de.htw.ds.board.chess.ChessAnalyzer2 ganz oben
+
+Aufgabe 3)
+- Der Server :
+	startet default mit servicePort = 3308 und dem serviceName = "ChessService"
+	param1 = servicePort (& param2 = serviceName)
+	Server verbindet zur localhost Datenbank mit port = 3306
+- Die Datenbank:
+	Datenbankname = chess
+	Verbindung über user = "root", password = "" und encoding = "utf-8"
+- Der Client:
+	verbindet default zum lokalem Server, static URI in de.htw.ds.board.chess.ChessAnalyzer3
+
+Aufgabe 4)
+- Der Server
+	benötigt 4 parameter servicePort, serviceName,  socketPort, passwort bsp.: "3308 ChessService 3309 passwort"
+- Der Client
+	startet mit zusätzlichem parameter für InetAddress mit defualt value = 127.0.0.1:3309 als 5ten parameter
